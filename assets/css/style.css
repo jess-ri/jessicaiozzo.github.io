@@ -1,0 +1,50 @@
+/* GLOBAL RESET */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+/* LINKS */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* PAGE WRAPPER */
+.home {
+  padding: 40px;
+}
+
+/* NAME (top anchor) */
+.name {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+/* GRID SYSTEM (controlled "scatter") */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* PROJECT BLOCKS */
+.item {
+  height: 140px;
+  border: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  transition: 0.25s ease;
+}
+
+/* hover interaction */
+.item:hover {
+  transform: translateY(-5px);
+  border-color: #111;
+}

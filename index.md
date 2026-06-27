@@ -1,8 +1,28 @@
----
+—
 layout: default
----
+—
 
-# Your Name
-Architectural Designer
+<div class=“home”>
 
-Welcome to my portfolio.
+  <div class=“name”>
+    YOUR NAME<br>
+    ARCHITECTURAL DESIGNER
+  </div>
+
+  <div class=“grid”>
+
+    <a href=“#”>
+      <div class=“item”>Project One</div>
+    </a>
+
+    <a href=“#”>
+      <div class=“item”>Project Two</div>
+    </a>
+
+    <a href=“#”>
+      <div class=“item”>Project Three</div>
+    </a>
+
+  </div>
+
+</div>
